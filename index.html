@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MSZ GEORGIA</title>
+	<bgsound src="audio/preview-ambient-aspire.ogg">
+	<link rel="stylesheet" type="text/css" href="stylesheet/fullpage.css">
+	<link rel="stylesheet" type="text/css" href="stylesheet/fullpage.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	
+	<link rel="stylesheet" type="text/css" href="stylesheet/style.css">
+	<link rel="stylesheet" type="text/css" href="stylesheet/fonts.css">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Poppins:500,600,800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+
+	
+</head>
+<body id="body">
+
+	<audio id="myAudio" src="audio/preview-ambient-aspire.ogg" type="audio/ogg" preload="auto"> 
+</audio>
+
+	<script type="text/javascript">
+	function calcFunction() 
+    {
+    	let days = parseInt(document.getElementById('days').value);
+    	let humans = parseInt(document.getElementById('humans').value);
+
+    	document.getElementById('output').innerHTML = days * humans * 4 + ' GEL';
+
+    	$('#output').addClass('d-inline-block');
+    }
+
+
+
+
+    
+
+	</script>
+
+	<!-- header -->
+
+
+		<!-- ლოგო და წარწერა -->
+	<nav class="navbar navbar-expand-lg navbar-light sticky-top position-relative w-100">
+	  <div class="container-fluid own-container d-flex allign-item-center">
+	  	<a class="navbar-brand" href="#firstPage">
+	  		<img src="images/whiteLogo.svg">
+	  	</a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+
+	  	<a class="nav-link-msz" href="index.html">MSZ GEORGIA <br> LOGISTIC COMPANY</a>
+
+	  	<!-- ლოგო და წარწერა -->
+
+
+	  	<!-- ნავიგაცია -->
+	 <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	    <ul class="navbar-nav ml-5 d-flex align-items-center">
+	      <li class="nav-item active">
+	        <a class="nav-link cool-link" href="index.html">მთავარი</a>
+	      </li>
+	      <hr class="li-line">
+	      <li class="nav-item">
+	        <a class="nav-link cool-link" href="service.html">სერვისები</a>
+	      </li>
+	      <hr class="li-line">
+	      <li class="nav-item">
+	        <a class="nav-link cool-link" href="news.html">სიახლეები</a>
+	      </li>
+	      <hr class="li-line">
+	      <li class="nav-item">
+	        <a class="nav-link cool-link" href="contact.html">კონტაქტი</a>
+	      </li>
+	      <hr class="li-line">
+	      <li class="nav-item">
+	        <a class="nav-link cool-link search" href="gallery.html">გალერეა </a>
+	      </li>
+	       <hr class="li-line">
+	      <li class="nav-item">
+	        <a class="nav-link cool-link search" href="team.html">ჩვენ შესახებ </a>
+	      </li>
+	    </ul>
+	  </div>
+	  		<!-- ნავიგაცია -->
+
+	  	<div class="navbar-right">
+	  		<ul class="d-flex align-items-center">
+	  			
+	  			<li>
+	  				<img class="search-icon" src="images/loop.png">
+	  			</li>
+	  			<li class="d-flex align-items-center speaker-item">  				
+					<!-- <audio allow="autoplay" id="startAudio" controls="" loop="" style="width: 140px; height: 30px; margin-top:6px;">
+						  <source  allow="autoplay" autoplay="autoplay" src="audio/preview-ambient-aspire.mp3" type="audio/ogg">
+					</audio> -->
+					<img class="d-flex" id="speakerMute" src="images/play-button.svg">
+					<img class="d-none" id="speakerOn" src="images/stop.svg">
+	  			</li>
+	  			<li class="call-li">
+	  				<img class="call-icon" src="images/call-answer.svg">
+	  				<span class="call-span poppins">595 59 59 59</span>
+	  			</li>
+	  			<li class="lang-li">
+	  				<span class="lang-span poppins">GEO</span>
+	  			</li>
+	  		</ul>
+	  	</div>
+
+	  </div>
+
+
+
+	
+
+	  <hr class="navbar-underline position-absolute">
+
+
+	</nav>
+
+
+
+	<!-- <div class="SocContainer d-flex align-items-center justify-content-between position-absolute">
+		<div class="navbar-bottom d-flex align-items-center justify-content-between position-absolute w-100">
+	  	<ul class="d-flex align-items-center socMedia">
+	  		<a href="javascript:0">
+	  			<i class="fab fa-facebook-f"></i>
+	  		</a>
+	  		<a href="javascript:0">
+	  			<i class="fab fa-instagram"></i>
+	  		</a>
+	  		<a href="javascript:0">
+	  			<i class="fab fa-twitter"></i>
+	  		</a>	
+	  	</ul>
+	  	<img class="messenger" src="images/Group 17.svg">
+	</div> -->
+
+	
+		  		<div class="soc-icons socs position-absolute"> 
+		  			<a href="javascript:0">
+			  			<i class="fab fa-facebook-f"></i>
+			  		</a>
+			  		<a href="javascript:0">
+			  			<i class="fab fa-instagram"></i>
+			  		</a>
+			  		<a href="javascript:0">
+			  			<i class="fab fa-twitter"></i>
+			  		</a>			
+		  		</div>	
+		  		<div class="soc-icons messenger position-absolute"> 
+		  			<img class="messenger-icon" src="images/Group 17.svg">			
+		  		</div>
+
+<!-- end of header -->
+
+
+	<div id="fullpage" class="">
+		<div class="section firstPage">
+			<!-- MOBILE -->
+
+
+			<div class="mobile own-container">
+				<h3 class="text-center mt-3 text-black bpg text-white ">MSZ GEORGIA</h3>
+					<hr class="mobile-hr">
+				<h6 class="text-center mx-auto alk">კომპანია უზრუნველყოფს უმოკლეს ვადებში ყველა სახის ტვირთის გადაზიდვას მსოფლიოს ნებისმიერიწერტილიდან ნებისმიერი სახის ტრანსპორტით.</h6>
+				<button type="button" class="btn btn-outline-warning btn-orange-outline alk d-flex mx-auto mobileBtn"><a href="contact.html">იხილეთ მეტი</a></button>
+				<a href="#thirdPage" class="mobileServiceBtn d-flex align-items-center justify-content-between">
+					<img src="images/male-consultantOrange.svg">
+					<span class="alk">საკონსულტაციო მომსახურება</span>
+				</a>
+				<a href="#fourthPage" class="mobileServiceBtn d-flex align-items-center justify-content-between">
+					<img src="images/air-transportOrange.svg">
+					<span class="alk">ლოჯისტიკური მომსახურება</span>
+				</a>
+				<a href="#fifthPage" class="mobileServiceBtn d-flex align-items-center justify-content-between">
+					<img src="images/locOrange.svg">
+					<span class="alk">ბიზნეს ტური ჩინეთში</span>
+				</a>
+			</div>
+
+
+
+			<!-- MOBILE -->
+			<div class="container position-relative mx-auto forNone">
+				<div class="firstPage-header">
+					<h1 class="pageHeader bpg">კომპანია უზრუნველყოფს უმოკლეს ვადებში ყველა სახის ტვირთის გადაზიდვას მსოფლიოს ნებისმიერიწერტილიდან ნებისმიერი სახის ტრანსპორტით.</h1>
+					<button type="button" class="btn ixiletMeti"><a href="javascript:0" class="bpg"><a href="contact.html" class="bpg">იხილეთ მეტი</a></button>
+				</div>
+				<div class="container-fluid services d-flex justify-content-center align-items-center">
+					<a href="#thirdPage">
+						<div class="card consultingCard" style="width: 22rem;">
+							<div class="opacity position-absolute"></div>
+						  <div class="card-body d-flex flex-column align-items-center justify-content-center">
+						    <h5 class="card-title bpg text-center">საკონსულტაციო მომსახურება</h5>
+						    <p class="card-text alk text-center">ჩვენ გვაქვს კავშირი მთელი მსოფლიოს მასშტაბით, რადგან მომხარებელს შევთავაზოთ მაქსიმალური ხარისხი. დაგვიკავშირდით დღეს და აირჩიეთ თქვენთვის სასურველი სერვისი.</p>
+						    <img class="mx-auto d-flex align-items-center" src="images/male-consultant.svg">
+						  </div>
+						</div>
+					</a>
+					<a href="#fourthPage">
+						<div class="card logisticCard" style="width: 22rem;">
+							<div class="opacity noneAbsolute position-absolute"></div>
+						  <div class="card-body d-flex flex-column align-items-center justify-content-center">
+						    <h5 class="card-title bpg text-center">ლოჯისტიკური მომსახურება</h5>
+						    <p class="card-text alk text-center">ჩვენ გვაქვს კავშირი მთელი მსოფლიოს მასშტაბით, რადგან მომხარებელს შევთავაზოთ მაქსიმალური ხარისხი. დაგვიკავშირდით დღეს და აირჩიეთ თქვენთვის სასურველი სერვისი.</p>
+						    <img class="mx-auto d-flex align-items-center" src="images/air-transport.svg">
+						  </div>
+						</div>
+					</a>
+					<a href="#fifthPage">
+						<div class="card tourCard" style="width: 22rem;">
+							<div class="opacity position-absolute"></div>
+						  <div class="card-body d-flex flex-column align-items-center justify-content-center">
+						    <h5 class="card-title bpg text-center">ბიზნეს<br> ტური</h5>
+						    <p class="card-text alk text-center">ჩვენ გვაქვს კავშირი მთელი მსოფლიოს მასშტაბით, რადგან მომხარებელს შევთავაზოთ მაქსიმალური ხარისხი. დაგვიკავშირდით დღეს და აირჩიეთ თქვენთვის სასურველი სერვისი.</p>
+						    <img class="mx-auto d-flex align-items-center" src="images/loc.svg">
+						  </div>
+						</div>
+					</a>	
+				</div>
+				<div class="col-12 gamocdileba">
+					<h1 class="text-center bpg endet-title">ენდეთ ჩვენს გამოცდილებას</h1>
+					<hr class="endetLine">
+				</div>
+			</div>
+		</div>
+		<div class="section twoPage">
+			<!-- mobile vers -->
+
+			<div class=" mx-auto">
+				<div class="mobile own-container">
+
+					<h3 class="text-center mt-3 text-black bpg text-white ">ჩვენს შესახებ</h3>
+					<hr class="mobile-hr">
+					
+					<h6 class="text-center mx-auto text-white alk">MSZ Georgia-ს ისტორია 2011 
+													წლიდან იწყება და დღეისათვის ის 
+													ქართულ ბაზარზე ერთ-ერთ 
+													მოწინავე მოთამაშეს წარმოადგენს 
+													ექსპედიტორულ-საკონსულტაციო 
+													მომსახურების სფეროში. ჩვენი 
+													პრიორიტეტი, მთელი ამ დროის 
+													განმავლობაში იყო როგორც 
+													მაღალი ხარისხის სერვისის 
+													მიწოდება მომხმარებლისთვის, 
+													ასევე მუდმივი სწრაფვა 
+													განვითარებისკენ.  </h6>
+
+					<a href="javascript:0" class="mobileServiceBtn d-flex align-items-center justify-content-center">
+					<img src="images/Polygon 2.svg">
+					<span class="alk">იხილეთ ვიდეო</span>
+				</a>
+				</div>	
+			</div>	
+
+			<!--  mobile vers-->
+			<div class="container-fluid two-page-none">
+				<div class="d-flex justify-content-between">
+					<div class="twoPage-video d-inline-block col-md-6 d-flex">
+						<img class="secPage-video" src="images/Group 19.png">
+					</div>
+					<div class="twoPage-video d-inline-block col-md-6 d-flex">
+						<h1 class="twoPage-h1 bpg mx-auto">ჩვენს შესახებ</h1>
+					</div>
+					
+				</div>
+
+				<div class="col-12">
+					<p class="alk twoPage-article">MSZ Georgia-ს ისტორია 2011 წლიდან იწყება და დღეისათვის ის ქართულ ბაზარზე ერთ-ერთ მოწინავე მოთამაშეს წარმოადგენს ექსპედიტორულ-საკონსულტაციო მომსახურების სფეროში. ჩვენი პრიორიტეტი, მთელი ამ დროის განმავლობაში იყო როგორც მაღალი ხარისხის სერვისის მიწოდება მომხმარებლისთვის, ასევე მუდმივი სწრაფვა განვითარებისკენ.  </p>
+				</div>
+				
+			
+			</div>
+			
+		</div>
+		<div class="section threePage">
+			<!-- mobile vers -->
+
+			<div class=" mx-auto">
+				<div class="mobile own-container">
+
+					<h3 class="text-center mt-3 text-black bpg text-white ">საკონსულტაციო <br>მომსახურება</h3>
+					<hr class="mobile-hr">
+					
+					<h6 class="text-center mx-auto text-white alk">“MSZ GROUP”  შუამავლობას  უწევს  დაინტერესებულ პირებსა  თუ  კომპანიებს  ნებისმიერი  პროდუქციის იმპორტის  განხორციელებაში. კომპანია იცავს დამკვეთის   ინტერესებს  უცხო  ქვეყანაში, იმ  პრიორიტეტის  გათვალისწინებით, რომ  მას  ჰყავს  თავისი  წარმომადგენლობა  ჩინეთის სახალხო  რესპუბლიკაში.</h6>
+
+					<a href="service.html" class="mobileServiceBtn d-flex align-items-center justify-content-center">
+					<span class="bpg">იხილეთ მეტი</span>
+				</a>
+				</div>	
+			</div>	
+
+			<!--  mobile vers-->
+			<div class="dekstop forNone">
+				<div class="container own-container forNone">
+				<h1 class="threePage-title bpg text-white">საკონსულტაციო<br> მომსახურება</h1>
+				<h5 class="threePage-undertitle alk text-white">ჩვენ გვაქვს კავშირი მთელი მსოფლიოს მასშტაბით</h5>
+			</div>
+			<div class="own-container categories-cont">
+				<div class="row">
+					<div class="col-6">
+						<h1 class="categories-title bpg">კატეგორიები</h1>
+						<div class="row">
+							<div class="col-4">
+								<button data-toggle="modal" data-target="#exampleModal" type="button" class="btn btn-outline-warning btn-orange-outline alk w-100">სამშენებლო ტექნიკა</button>
+								<button type="button" class="btn btn-outline-warning btn-orange-outline alk w-100">სარემონტო მასალები</button>
+								<button type="button" class="btn btn-outline-warning btn-orange-outline alk w-100">სამედიცინო ინვენტარი და აქს.</button>
+								<button type="button" class="btn btn-outline-warning btn-orange-outline alk w-100">ავეჯი და აქსესუარები</button>
+								<button type="button" class="btn btn-outline-warning btn-orange-outline alk w-100">პარკირების სისტემები</button>
+							</div>
+							<div class="col-4">
+								<button type="button" class="btn btn-outline-warning btn-orange-outline alk w-100">განათებები</button>
+								<button type="button" class="btn btn-outline-warning btn-orange-outline alk w-100">საოჯახო</button>
+								<button type="button" class="btn btn-outline-warning btn-orange-outline alk w-100">დაზგა-დანადგარები</button>
+								<button type="button" class="btn btn-outline-warning btn-orange-outline alk w-100">სარეკლამო პროდუქცია</button>
+								<button type="button" class="btn btn-outline-warning btn-orange-outline alk w-100">სამეურნეო ტექნიკა და ნაწილები</button>
+							</div>
+							<div class="col-4">
+								<button type="button" class="btn btn-outline-warning btn-orange-outline alk w-100">საკვები პროდუქტები</button>
+								<button type="button" class="btn btn-outline-warning btn-orange-outline alk w-100">ავტონაწილები</button>
+								<button type="button" class="btn btn-outline-warning btn-orange-outline alk w-100">სპორტი და გართობა</button>
+								<button type="button" class="btn btn-outline-warning btn-orange-outline alk w-100">სხვა პროდუქცია</button>
+							</div>
+						</div>
+					</div>
+					<div class="col-6 d-flex align-self-center">
+						<p class="bpg text-right">“MSZ GROUP”  შუამავლობას  უწევს  დაინტერესებულ პირებსა  თუ  კომპანიებს  ნებისმიერი  პროდუქციის იმპორტის  განხორციელებაში. კომპანია იცავს დამკვეთის   ინტერესებს  უცხო  ქვეყანაში, იმ  პრიორიტეტის  გათვალისწინებით, რომ  მას  ჰყავს  თავისი  წარმომადგენლობა  ჩინეთის სახალხო  რესპუბლიკაში,  რომელიც  ადგილზე  ამოწმებს  ხარისხს.</p>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+		<div class="section fourPage">
+			<!-- mobile vers -->
+
+			<div class=" mx-auto">
+				<div class="mobile own-container">
+
+					<h3 class="text-center mt-3 text-black bpg text-white ">ლოგისტიკური<br>მომსახურება</h3>
+					<hr class="mobile-hr">
+					
+					<h6 class="text-center mx-auto text-white alk">,,MSZ GROUP” - დაკომპლექტებულია პროფესიონალი კადრებით, რომლებიც დაგეხმარებიან თქვენთვის სასურველი პროდუქციის მოძიებაში, ხარისხის კონტროლში და შეკვეთასთან დაკავშირებული ყველა საკითხის მოგვარებაში მაქსიმალურად გონივრულ ვადაში.</h6>
+
+					
+					<a href="service.html" class="mobileServiceBtn d-flex align-items-center justify-content-center">
+					<span class="bpg text-center">იხილეთ მეტი</span>
+					</a>
+				</div>	
+			</div>	
+
+			<!--  mobile vers-->
+			<div class="desktop forNone">
+				<div class="container own-container">
+				<h3 class="bpg text-white">ლოგისტიკური მომსახურება</h3>
+			</div>
+			<div class="container-fluid">
+				<h6 class="bpg text-black own-container">ქართული კომპანია“ MSZ GEORGIA” კლიენტებს სთავაზობს ლოგისტიკური მომსახურების სრულ სპექტრს</h6>
+				<div class="own-container">
+				<div class="row">
+					<div class="col-3 allServiceCardCol">
+						<a href="service.html">
+							<div class="card allServicesCard allServicesCard-1">
+								<div class="opacity position-absolute"></div>
+							  <div class="card-body d-flex flex-column align-items-center justify-content-center">
+							    <h5 class="card-title bpg text-center">საერთაშოირსო სახმელეთო გადაზიდვები</h5>
+							  </div>
+							</div>
+						</a>
+						<button type="button" class="btn btn-outline-primary vrcladBtn mx-auto d-flex bpg">ვრცლად</button>	
+					</div>
+					<div class="col-3 allServiceCardCol">
+						<a href="service.html">
+							<div class="card allServicesCard allServicesCard-2">
+								<div class="opacity position-absolute"></div>
+							  <div class="card-body d-flex flex-column align-items-center justify-content-center">
+							    <h5 class="card-title bpg text-center">საკონსულტაციო მომსახურება</h5>
+							  </div>
+							</div>
+						</a>
+						<button type="button" class="btn btn-outline-primary vrcladBtn mx-auto d-flex bpg">ვრცლად</button>		
+					</div>
+					<div class="col-3 allServiceCardCol">
+						<a href="service.html">
+							<div class="card allServicesCard allServicesCard-3">
+								<div class="opacity position-absolute"></div>
+							  <div class="card-body d-flex flex-column align-items-center justify-content-center">
+							    <h5 class="card-title bpg text-center">საერთაშოირსო საზღვაო გადაზიდვები</h5>
+							  </div>
+							</div>
+						</a>
+						<button type="button" class="btn btn-outline-primary vrcladBtn mx-auto d-flex bpg">ვრცლად</button>		
+					</div>
+					<div class="col-3 allServiceCardCol">
+						<a href="service.html">
+							<div class="card allServicesCard allServicesCard-4">
+								<div class="opacity position-absolute"></div>
+							  <div class="card-body d-flex flex-column align-items-center justify-content-center">
+							    <h5 class="card-title bpg text-center">საჰაერო გადაზიდვები</h5>
+							  </div>
+							</div>
+						</a>
+						<button type="button" class="btn btn-outline-primary vrcladBtn mx-auto d-flex bpg">ვრცლად</button>		
+					</div>
+				</div>
+			</div>	
+			</div>
+			<div class="own-container fourPage-contactContainer">
+				<p class="bpg fourPage-article own-container">,,MSZ GROUP” - დაკომპლექტებულია პროფესიონალი კადრებით, რომლებიც დაგეხმარებიან თქვენთვის სასურველი პროდუქციის მოძიებაში, ხარისხის კონტროლში და შეკვეთასთან დაკავშირებული ყველა საკითხის მოგვარებაში მაქსიმალურად გონივრულ ვადაში.</p>
+				<button type="button" class="btn btn-outline-warning btn-orange-outline alk float-right"><a href="contact.html">დაგვიკავშირდით</a></button>
+			</div>
+		</div>
+			</div>
+
+
+		<div class="section fivePage">
+			<!-- mobile vers -->
+
+			<div class=" mx-auto">
+				<div class="mobile own-container">
+
+					<h3 class="text-center mt-3 text-black bpg text-white ">ბიზნეს ტური<br>ჩინეთში</h3>
+					<hr class="mobile-hr">
+					
+					<h6 class="text-center mx-auto text-white alk">MSZ GEORGIA გთავაზობთ ვიზიტს 
+					ჩინეთის სახალხო რესპუბლიკაში, 
+					რაც მოგცემთ შესაძლბლობას 
+					შეიძინოთ ავეჯი და ნებისმიერი 
+					პროდუქცია ექსკლუზიურად თქვენი 
+					სასტუმროს, კერძო სახლისა თუ 
+					რესტორნისათვის და რაც მთავარია 
+					დაზოგოთ თანხა.</h6>
+
+					<a href="contact.html" class="mobileServiceBtn d-flex align-items-center justify-content-center">
+					<span class="bpg">დაგვიკავშირდით</span>
+				</a>
+				</div>	
+			</div>	
+
+			<!--  mobile vers-->
+			<div class="desktop forNone">
+				<div class="container own-container">
+				<h1 class="threePage-title bpg text-white">ბიზნესი ტური ჩინეთში</h1>
+				<h5 class="threePage-undertitle bpg" style="color: #FF6C00;">ბიზნეს ტური ჩინეთში, VISIT 2 CHINA-ს ფარგლებში</h5>
+			</div>
+
+			<div class="container own-container buisnes-cont d-flex align-items-center justify-content-between">
+				<div class="row mx-auto">
+					<div class="col-6 d-flex align-items-center">
+						<div>
+						<p class="buisnes-tour-article bpg">MSZ GEORGIA გთავაზობთ ვიზიტს ჩინეთის სახალხო რესპუბლიკაში, რაც მოგცემთ შესაძლბლობას შეიძინოთ ავეჯი და ნებისმიერი პროდუქცია ექსკლუზიურად თქვენი სასტუმროს, კერძო სახლისა თუ რესტორნისათვის და რაც მთავარია დაზოგოთ თანხა.</p>
+
+						<p class="buisnes-tour-article bpg">საერთაშორისო საზღვაო, სახმელეთო და საჰაერო გადაზიდვები MSZ GEORGIA შუამავლობას უწევს დაინტერესებულ კომპანიებს ნებისმიერი პროდუქციის იმპორტის განხორციელებაში, იმ პრიორიტეტის გათვალისწინებით, რომ მას ჰყავს თავისი წარმომადგენლობა ჩინეთის სახალხო რესპუბლიკაში.</p>
+						<button type="button" class="btn btn-outline-warning btn-orange-outline alk float-left"><a href="contact.html" class="alk">დაგვიკავშირდით</a></button>
+						</div>
+					</div>
+
+						
+					<div class="col-6">
+						<div class="w-100 img-box d-none" id="videoBox">
+							<img class="fivePage-video" src="images/Group 32.png">
+						</div>
+						<div class="w-100 calculator-box" id="calcBox">
+							<!-- Material input -->
+							<form class="mx-auto d-flex flex-column">
+								<label for="humans" class="inp mx-auto">
+								  <input type="text" id="humans" class="alk" placeholder="&nbsp;">
+								  <span class="label alk">რაოდენობა (ადამიანები)</span>
+								  <span class="border"></span>
+								</label>
+								<label for="days" class="inp mx-auto">
+								  <input type="text" id="days" class="alk" placeholder="&nbsp;">
+								  <span class="label alk">დღეები</span>
+								  <span class="border"></span>
+								</label>
+							</form>
+							<div class="middleSection d-flex align-items-center justify-content-around">
+								<div onclick="calcFunction()" class="calcButton d-flex align-items-center">
+									<div class="imgSide"><img src="images/division.svg"></div>
+									<div class="textSide"><span class="alk">გამოთვალე</span></div>
+								</div>
+								<div class="outputSection">
+									<p id="output" class="bpg text-right"></p>
+								</div>
+							</div>
+							<div class="orderSection mx-auto d-flex justify-content-center">
+								<a href="contact.html" class="text-center orderLink alk">დაჯავშვნა</a>
+							</div>
+						</div>
+						<div class="d-flex justify-content-center">
+							<button id="calcBtn"  type="button" class="btn btn-outline-warning btn-orange-outline alk mx-auto d-none">კალკულატორი</button>
+						</div>
+						<div class="d-flex justify-content-center d-none">
+							<button id="videoBtn" type="button" class="btn btn-outline-warning btn-orange-outline alk mx-auto">ვიდეო / VIDEO</button>
+						</div>
+					</div>
+				</div>
+
+				
+
+					
+
+				</div>
+			</div>
+			</div>
+		
+			<div class="section sixPage">
+				<!-- mobile vers -->
+
+			<div class=" mx-auto">
+				<div class="mobile own-container">
+
+					<h3 class="text-center mt-3 text-black bpg text-white ">MSZ GEORGIA<br>LOGISTIC COMPANY</h3>
+					<hr class="mobile-hr">
+					
+					<h6 class="text-center mx-auto text-white alk">ჩვენ გვაქვს კავშირი მთელი 
+					მსოფლიოს მასშტაბით, რადგან 
+					მომხარებელს შევთავაზოთ 
+					მაქსიმალური ხარისხი. 
+					დაგვიკავშირდით დღეს და აირჩიეთ 
+					თქვენთვის სასურველი სერვისი.</h6>
+
+					<a href="news.html" class="mobileServiceBtn d-flex align-items-center justify-content-center">
+					<span class="bpg">იხილეთ სიახლეები</span>
+
+					<a href="gallery.html" class="mobileServiceBtn d-flex align-items-center justify-content-center">
+					<span class="bpg">გალერეა</span>
+				</a>
+				</div>	
+			</div>	
+
+			<!--  mobile vers-->
+				<div class="container-fluid desktop forNone">
+					<div class="container own-container mx-auto">
+					<div class="row">
+						<div class="col-4 d-flex justify-content-center">
+							<div class="card" style="width: 20rem;">
+							  <div class="newImgBox">
+							  	
+							  </div>
+							  <div class="card-body">
+							    <h5 class="card-title card-title-news alk">სიახლის სათაური</h5>
+							    <hr class="news-hr">
+							    <p class="card-text card-text-news alk">MSZ Georgia-ს ისტორია 2011 წლიდან იწყება და დღეისათვის </p>
+							    <div class="mx-auto d-flex justify-content-center linkDiv">
+							    	<a href="new-item.html" class="btn btn-orange-outline text-center alk">იხილეთ მეტი</a>
+							    </div>
+							  </div>
+
+							</div>
+						</div>
+						<div class="col-4 d-flex justify-content-center">
+							<div class="card" style="width: 20rem;">
+							  <div class="newImgBox">
+							  	
+							  </div>
+							  <div class="card-body">
+							    <h5 class="card-title card-title-news alk">სიახლის სათაური</h5>
+							    <hr class="news-hr">
+							    <p class="card-text card-text-news alk">MSZ Georgia-ს ისტორია 2011 წლიდან იწყება და დღეისათვის </p>
+							    <div class="mx-auto d-flex justify-content-center linkDiv">
+							    	<a href="#" class="btn btn-orange-outline text-center alk">იხილეთ მეტი</a>
+							    </div>
+							  </div>
+
+							</div>
+						</div>
+						<div class="col-4 d-flex justify-content-center">
+							<div class="card" style="width: 20rem;">
+							  <div class="newImgBox">
+							  	
+							  </div>
+							  <div class="card-body">
+							    <h5 class="card-title card-title-news alk">სიახლის სათაური</h5>
+							    <hr class="news-hr">
+							    <p class="card-text card-text-news alk">MSZ Georgia-ს ისტორია 2011 წლიდან იწყება და დღეისათვის </p>
+							    <div class="mx-auto d-flex justify-content-center linkDiv">
+							    	<a href="#" class="btn btn-orange-outline text-center alk">იხილეთ მეტი</a>
+							    </div>
+							  </div>
+
+							</div>
+						</div>
+					</div>
+				 </div>
+				 <div class="container own-container newsCont-footer mx-auto">
+				 	<div class="row align-items-center">
+				 		<div class="col-4 ">
+				 			<a class="card-text-contact alk float-left" href="#">info(at)msz.ge</a>
+				 		</div>
+				 		<div class="col-4 d-flex justify-content-center">
+				 			<a href="contact.html" class="btn btn-orange-outline text-center alk newsFooter-more">დაგვიკავშირდით</a>
+				 		</div>
+				 			<div class="col-4">
+				 			<a class="card-text-contact alk float-right" href="#">595 59 59 59</a>
+				 		</div>
+				 	</div>
+				 </div>
+
+				</div>
+				</div>
+			 </div>
+			
+
+				
+		</div>
+
+		
+	</div>
+
+	<!-- Modal -->
+			<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			  <div class="modal-dialog" role="document">
+			  	<!-- <div class="modalClose position-absolute">
+			  		<button>
+			  			X
+			  		</button>
+			  	</div> -->
+			    <div class="modal-content">
+			      <div class="modal-body d-flex">
+			        <div class="col-6">
+			        	<div class="imgBox">
+			        		
+			        	</div>
+			        	<div class="imgBox">
+			        		
+			        	</div>
+			        </div>
+			        <div class="col-6">
+			        	<div class="imgBox">
+			        		
+			        	</div>
+			        	<div class="imgBox">
+			        		
+			        	</div>
+			        </div>
+			      </div>
+			      <div class="modal-footer flex-column">
+			      	<h5 class="modal-title bpg" id="exampleModalLabel">სამშენებლო ტექნიკა</h5>
+			        <a href="javascript:0" class="modal-link bpg">საფასადე პლატფორმები</a>
+			        <a href="javascript:0" class="modal-link bpg">სამშენებლო ლიფტი</a>
+			        <a href="javascript:0" class="modal-link bpg">ამწე</a>
+			      </div>
+			    </div>
+			  </div>
+			</div>
+
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/fullpage.js"></script>
+	<script type="text/javascript" src="js/fullpage.min.js"></script>
+	<script type="text/javascript" src="js/fullpage.extensions.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+
+			new fullpage('#fullpage', {
+				anchors:['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'fifthPage', 'sixthPage']
+			});
+
+			var myFullpage = new fullpage('#fullpage', {
+
+
+
+				//Navigation
+				menu: '#menu',
+				lockAnchors: true,
+				anchors:['firstPage', 'secondPage'],
+				navigation: true,
+				navigationPosition: 'right',
+				navigationTooltips: ['firstSlide', 'secondSlide'],
+				showActiveTooltip: false,
+				slidesNavigation: false,
+				slidesNavPosition: 'bottom',
+
+				//Scrolling
+				css3: true,
+				scrollingSpeed: 1200,
+				autoScrolling: true,
+				fitToSection: true,
+				fitToSectionDelay: 1000,
+				scrollBar: false,
+				easing: 'easeInOutCubic',
+				easingcss3: 'ease',
+				loopBottom: false,
+				loopTop: false,
+				loopHorizontal: true,
+				continuousVertical: false,
+				continuousHorizontal: false,
+				scrollHorizontally: false,
+				interlockedSlides: false,
+				dragAndMove: false,
+				offsetSections: false,
+				resetSliders: false,
+				fadingEffect: false,
+				normalScrollElements: '#element1, .element2',
+				scrollOverflow: false,
+				scrollOverflowReset: false,
+				scrollOverflowOptions: null,
+				touchSensitivity: 15,
+				bigSectionsDestination: null,
+
+				//Accessibility
+				keyboardScrolling: true,
+				animateAnchor: true,
+				recordHistory: true,
+
+				//Design
+				controlArrows: true,
+				verticalCentered: true,
+				sectionsColor : ['#ccc', '#fff'],
+				paddingTop: '3em',
+				paddingBottom: '10px',
+				fixedElements: '#header, .footer',
+				responsiveWidth: 0,
+				responsiveHeight: 0,
+				responsiveSlides: false,
+				parallax: false,
+				parallaxOptions: {type: 'reveal', percentage: 62, property: 'translate'},
+				cards: false,
+				cardsOptions: {perspective: 100, fadeContent: true, fadeBackground: true},
+
+				//Custom selectors
+				sectionSelector: '.section',
+				slideSelector: '.slide',
+
+				lazyLoading: true,
+
+				//events
+				onLeave: function(origin, destination, direction){},
+				afterLoad: function(origin, destination, direction){},
+				afterRender: function(){},
+				afterResize: function(width, height){},
+				afterReBuild: function(){},
+				afterResponsive: function(isResponsive){},
+				afterSlideLoad: function(section, origin, destination, direction){},
+				onSlideLeave: function(section, origin, destination, direction){}
+			});
+
+
+
+		});
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	
+	<script type="text/javascript">
+		var x = document.getElementById("myAudio"); 
+		var audioOn = document.getElementById('speakerOn');
+		var audioOff = document.getElementById('speakerMute');
+
+		audioOn.addEventListener('click', function() {
+			pauseAudio();
+			$(audioOn).removeClass('d-flex');
+			$(audioOn).addClass('d-none');
+			$(audioOff).addClass('d-flex');
+		});
+
+		audioOff.addEventListener('click', function() {
+			playAudio();
+			$(audioOn).addClass('d-flex');
+			$(audioOff).removeClass('d-flex');
+			$(audioOff).addClass('d-none');
+		});
+
+
+		function playAudio() { 
+		  x.play(); 
+		} 
+
+		function pauseAudio() { 
+		  x.pause(); 
+		} 
+
+
+		
+
+	</script>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
